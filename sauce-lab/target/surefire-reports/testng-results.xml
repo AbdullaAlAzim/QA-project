@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-11T01:47:19 BDT" name="Suite" finished-at="2023-07-11T01:47:52 BDT" duration-ms="33244">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T01:47:19 BDT" name="Test" finished-at="2023-07-11T01:47:52 BDT" duration-ms="33244">
+      <class name="testcases.productText">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.productText@6933b6c6]" started-at="2023-07-11T01:47:34 BDT" name="setBrowser" finished-at="2023-07-11T01:47:42 BDT" duration-ms="7627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="testFakeDataCreate()[pri:0, instance:testcases.productText@6933b6c6]" started-at="2023-07-11T01:47:42 BDT" name="testFakeDataCreate" finished-at="2023-07-11T01:47:46 BDT" duration-ms="4506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFakeDataCreate -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.productText@6933b6c6]" started-at="2023-07-11T01:47:46 BDT" name="quiteBrowser" finished-at="2023-07-11T01:47:47 BDT" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+      </class> <!-- testcases.productText -->
+      <class name="testcases.LoginText">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:19 BDT" name="setBrowser" finished-at="2023-07-11T01:47:26 BDT" duration-ms="6872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:19 BDT" name="setBrowser" finished-at="2023-07-11T01:47:23 BDT" duration-ms="3786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:19 BDT" name="setBrowser" finished-at="2023-07-11T01:47:30 BDT" duration-ms="10510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="testloginWithInvalidPassword()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:23 BDT" name="testloginWithInvalidPassword" finished-at="2023-07-11T01:47:30 BDT" duration-ms="6890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloginWithInvalidPassword -->
+        <test-method signature="testLoginWithInvalidUsername()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:26 BDT" name="testLoginWithInvalidUsername" finished-at="2023-07-11T01:47:31 BDT" duration-ms="5264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidUsername -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:30 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidCredentials" finished-at="2023-07-11T01:47:32 BDT" duration-ms="2667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:30 BDT" name="quiteBrowser" finished-at="2023-07-11T01:47:33 BDT" duration-ms="2793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:31 BDT" name="quiteBrowser" finished-at="2023-07-11T01:47:34 BDT" duration-ms="2799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:32 BDT" name="quiteBrowser" finished-at="2023-07-11T01:47:34 BDT" duration-ms="1351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:33 BDT" name="setBrowser" finished-at="2023-07-11T01:47:39 BDT" duration-ms="5455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:34 BDT" name="setBrowser" finished-at="2023-07-11T01:47:36 BDT" duration-ms="2190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:36 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidCredentials" finished-at="2023-07-11T01:47:41 BDT" duration-ms="5588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_use]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method signature="testloginWithValidCredentials()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:39 BDT" name="testloginWithValidCredentials" description="Test description from testNG" finished-at="2023-07-11T01:47:46 BDT" duration-ms="7307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testloginWithValidCredentials -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:41 BDT" name="quiteBrowser" finished-at="2023-07-11T01:47:47 BDT" duration-ms="5365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:46 BDT" name="quiteBrowser" finished-at="2023-07-11T01:47:48 BDT" duration-ms="1951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:47 BDT" name="setBrowser" finished-at="2023-07-11T01:47:50 BDT" duration-ms="2806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:50 BDT" name="testLoginWithInvalidCredentials" data-provider="invalidCredentials" finished-at="2023-07-11T01:47:52 BDT" duration-ms="2308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:testcases.LoginText@5884a914]" started-at="2023-07-11T01:47:52 BDT" name="quiteBrowser" finished-at="2023-07-11T01:47:52 BDT" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quiteBrowser -->
+      </class> <!-- testcases.LoginText -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

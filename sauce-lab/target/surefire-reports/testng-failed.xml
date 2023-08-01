@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="3" parallel="methods" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testcases.LoginText">
+        <methods>
+          <include name="testLoginWithInvalidCredentials"/>
+          <include name="testloginWithInvalidPassword"/>
+          <include name="quiteBrowser"/>
+          <include name="testLoginWithInvalidUsername"/>
+          <include name="testloginWithValidCredentials"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- testcases.LoginText -->
+      <class name="testcases.productText">
+        <methods>
+          <include name="testFakeDataCreate"/>
+          <include name="quiteBrowser"/>
+          <include name="setBrowser"/>
+        </methods>
+      </class> <!-- testcases.productText -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
