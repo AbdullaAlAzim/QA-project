@@ -1,0 +1,13 @@
+String getUrl = vars.get("url");
+log.info("Url is " +getUrl);
+
+
+String parsedUrl= getUrl.substring(8);
+log.info("Trimed token is " +parsedUrl);
+
+vars.put("requiredUrl",parsedUrl);
+
+
+
+String getLastPage = vars.get("lastPage");
+log.info("lastPage is " +getLastPage);
